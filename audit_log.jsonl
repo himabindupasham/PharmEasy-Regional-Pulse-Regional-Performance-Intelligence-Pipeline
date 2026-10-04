@@ -1,0 +1,3 @@
+{"timestamp": "2026-10-02T13:12:37.554162Z", "run_id": "RUN-2026-001", "region": "Guntur", "decision": "approve", "reviewer_note": "Metrics verified against source logs. Approved for publication."}
+{"timestamp": "2026-10-02T13:12:37.554850Z", "run_id": "RUN-2026-002", "region": "Hyderabad", "decision": "edit", "reviewer_note": "Re-verify May sales surge due to potential duplicate bulk order entries."}
+{"timestamp": "2026-10-02T13:12:37.555011Z", "run_id": "RUN-2026-003", "region": "Visakhapatnam", "decision": "reject", "reviewer_note": "Unexplained extreme variance detected. Rejecting report for audit."}
