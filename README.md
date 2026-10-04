@@ -26,20 +26,21 @@ Reviewers are encouraged to consume the package in the following sequence:
 ### Running the Data Pipeline (Parts 1–3)
 
 # Part 1: Dataset regeneration and data cleaning
-python generate_dataset.py
+python generate_dataset.py,
 python clean_data.py
 
 # Part 2: Build database and execute analytical queries
-python build_db.py
-python queries.py
+python build_db.py,
+python queries.py,
 python metrics_engine.py
 
 # Part 3: Automated reports and audit gate testing
-python draft_report.py
+python draft_report.py,
 python review_gate.py
 
 ### Launching the Interactive Dashboard (Part 4)
 
-Using share.streamlit.io ,login with gmail, create app ,select repository,
+Using share.streamlit.io ,login with gmail, create app ,select repository, 
+Repository must contain app.py, requirements.txt, pharmeasy.db files.
 Select main file path app.py then deploy.this will generate the dashboard.
 Access the dashboard in your browser at https://jlfnw2qqon3idfrrdvp3k7.streamlit.app
