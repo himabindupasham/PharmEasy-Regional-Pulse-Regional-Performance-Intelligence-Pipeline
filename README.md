@@ -40,7 +40,7 @@ review_gate.py
 
 ### Launching the Interactive Dashboard (Part 4)
 
-Using share.streamlit.io ,login with gmail, create app ,select repository, 
+Using share.streamlit.io ,login with gmail, create app, select GitHub deploy now, select repository, 
 Repository must contain app.py, requirements.txt, pharmeasy.db files.
-Select main file path app.py then deploy.this will generate the dashboard.
+Select main file path app.py then deploy.This will generate the dashboard.
 Access the dashboard in your browser at https://jlfnw2qqon3idfrrdvp3k7.streamlit.app
