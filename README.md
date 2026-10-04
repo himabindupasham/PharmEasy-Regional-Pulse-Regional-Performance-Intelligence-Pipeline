@@ -26,17 +26,17 @@ Reviewers are encouraged to consume the package in the following sequence:
 ### Running the Data Pipeline (Parts 1–3)
 
 # Part 1: Dataset regeneration and data cleaning
-python generate_dataset.py,
-python clean_data.py
+generate_dataset.py,
+clean_data.py
 
 # Part 2: Build database and execute analytical queries
-python build_db.py,
-python queries.py,
-python metrics_engine.py
+build_db.py,
+queries.py,
+metrics_engine.py
 
 # Part 3: Automated reports and audit gate testing
-python draft_report.py,
-python review_gate.py
+draft_report.py,
+review_gate.py
 
 ### Launching the Interactive Dashboard (Part 4)
 
